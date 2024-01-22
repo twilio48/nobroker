@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 
 public class OwnerPlanDto {
 
-    private long planID;
+    private long planId;
 
 
     private String planName;

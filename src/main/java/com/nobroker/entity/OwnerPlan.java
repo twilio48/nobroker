@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class OwnerPlan {
     @Id
-    private long plan_id;
+    private long planId;
 
     @Column(name = "plan_name", unique = true)
     private String planName;
